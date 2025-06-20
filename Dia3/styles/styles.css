@@ -1,0 +1,37 @@
+*{
+    *{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    .menButton {
+    background-color: skyblue;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+    
+    }
+    .menButton:active {
+    background-color: blue
+    }
+
+    .girlButton {
+    background-color: rgb(255, 97, 229);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+    
+    }
+
+    .girlButton:active {
+    background-color: rgb(255, 0, 208)
+    }
+
+    .check {
+    vertical-align: middle;
+    auto
+    }
+}
