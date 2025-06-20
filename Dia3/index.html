@@ -30,7 +30,9 @@
                         <b> Ingresa los siguientes datos para registrarte: </b> <br>
                         <br> <b> Nombre: <input size="50" maxlength="50" placeholder="Ej: Juan Esteban"> </b> <br>
                         <br> <b> Apellido: <input size="50" maxlength="50" placeholder="Ej: Ramírez González"> </b> <br>
-                        <br> <b> Sexo: <button type="button" class="menButton"> <img src="img/white_men.png" height="40"> </button> <button type="button" class="girlButton"> <img src="img/white_girl.png" height="40"> </button> </b> <br>
+                        <br> <b> Sexo: 
+                            <input type="radio"> <img class="menImg" src="img/white_men.png" height="40">
+                            <input type="radio"> <img class="girlImg" src="img/white_girl.png" height="40"> </b> <br>
                         <br> <b> Email: <label for="correo"> </label> <input size="50" type="email" id="correo" name="correo" placeholder="example@example.com"required> </b> <br>
                     </p>
                     <h5>
@@ -48,16 +50,15 @@
                             <option value="Piedecuesta">Piedecuesta</option>
                             </select> <br>
                             <br> Descripción: <br>
-                            <input size="50"
-                        </b>
+                            <input class="description" placeholder="Write your comments here...">
+                        </b> <br>
+                            <br> <input type="submit" value="Enviar" 
                     </p>               
                 </td>
             </tr>
             </table>
         </td>
-        
     </tr>
-    
     </table>
 </body>
 </html>

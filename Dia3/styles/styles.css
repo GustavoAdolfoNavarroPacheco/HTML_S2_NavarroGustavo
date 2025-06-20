@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     }
 
-    .menButton {
+    .menImg {
     background-color: skyblue;
     border: none;
     padding: 10px;
@@ -12,11 +12,8 @@
     vertical-align: middle;
     
     }
-    .menButton:active {
-    background-color: blue
-    }
 
-    .girlButton {
+    .girlImg{
     background-color: rgb(255, 97, 229);
     border: none;
     padding: 10px;
@@ -26,12 +23,13 @@
     
     }
 
-    .girlButton:active {
-    background-color: rgb(255, 0, 208)
-    }
-
     .check {
     vertical-align: middle;
-    auto
+    }
+
+    .description {
+    padding: 10px;
+    height: 100px;
+    width: 400px;
     }
 }
