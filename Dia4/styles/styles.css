@@ -10,7 +10,7 @@
         background-color: black;
     }
 
-    .backgroundImg {
+    .backgroundImg1 {
         top: 0px;
         left: 0px;
         width: 1920px;
@@ -38,6 +38,11 @@
         left: 63.43px;
     }
 
+    .searchIcon {
+        width: 36px;
+        height: 36px;
+    }
+
     .loginButton {
         cursor: pointer;
         border: none;
@@ -49,7 +54,7 @@
         width: 205px;
         height: 54px;
         border-radius: 40px;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 20px;
         justify-content: center;
         align-items: center;
@@ -71,7 +76,7 @@
     font-size: 30px;
     color: white;
     position: absolute;
-    top: 608px;
+    top: 580px;
     left: 380px;
     text-align: center;
     }
@@ -88,7 +93,7 @@
         width: 458px;
         height: 104px;
         border-radius: 40px;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 40px;
         justify-content: center;
         align-items: center;
@@ -114,12 +119,10 @@
     }
 
     .topTextFrame2 {
-        position: absolute;
+        position: relative;
         font-family: "Amazon Ember", sans-serif;
         font-size: 60px;
-        top: 1770px;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 10px;
         color: white;
         text-align: center;
         width: 100%;
@@ -129,48 +132,50 @@
         width: 181px;
         height: 309px;
         position: absolute;
-        top: 179px;
-        left: 475.33px;
+        top: 120px;
+        left: 413px;
     }
 
     .movie2 {
         width: 181px;
         height: 309px;
         position: absolute;
-        top: 179px;
-        left: 668.33px;
+        top: 120px;
+        left: 606px;
     }
 
     .movie3 {
         width: 181px;
         height: 309px;
         position: absolute;
-        top: 179px;
-        left: 861.33px;
+        top: 120px;
+        left: 799px;
     }
 
     .movie4 {
         width: 181px;
         height: 309px;
         position: absolute;
-        top: 179px;
-        left: 1053.33px;
+        top: 120px;
+        left: 991px;
     }
 
     .movie5 {
         width: 181px;
         height: 309px;
         position: absolute;
-        top: 179px;
-        left: 1246.33px;
+        top: 120px;
+        left: 1184px;
     }
 
     .bottomTextFrame2 {
         position: absolute;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 50px;
-        top: 549px;
-        left: 205.33px;
+        top: 500px;
+        left: 143px;
+        color: white;
+        text-align: center;
     }
 
     .infoFrame3 {
@@ -184,12 +189,10 @@
     }
 
     .topTextFrame3 {
-        position: absolute;
+        position: relative;
         font-family: "Amazon Ember", sans-serif;
         font-size: 60px;
-        top: 2546px;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 10px;
         color: white;
         text-align: center;
         width: 100%;
@@ -197,56 +200,56 @@
 
     .cancelLogo {
         position: absolute;
-        top: 2650px;
-        left: 850.01px;
+        top: 200px;
+        left: 811.68px;
     }
 
     .bottomTextFrame3 {
         position: absolute;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 40px;
-        top: 2881px;
-        left: 50%;
+        top: 390px;
         color: white;
-        transform: translateX(-50%);
         width: 100%;
         text-align: center;
     }
 
+    .bottomPart {
+        width: 1920px;
+        height: 1000px;
+        top: 3037px;
+    }
+
     .bottomText1 {
         position: absolute;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 125px;
-        top: 3127px;
-        left: 50%;
+        top: 3020px;
+        left: 410px;
         color: white;
-        transform: translateX(-50%);
-        width: 100%;
         text-align: center;
     }
 
     .bottomText2 {
         position: absolute;
-        font-family: "Amazon Ember", sans-serif;
+        font-family: 'AmazonEmberLight', sans-serif;
         font-size: 40px;
-        top: 3296px;
-        left: 50%;
+        top: 3270px;
+        left: 240px;
         color: white;
-        transform: translateX(-50%);
-        width: 100%;
         text-align: center;
     }
 
     .macLogo {
         position: absolute;
         top: 3440px;
-        left: 685px;
+        left: 620px;
     }
 
     .phoneLogo {
         position: absolute;
         top: 3606px;
-        left: 386px;
+        left: 321px;
         width: 256px;
         height: 219px;
     }
@@ -260,17 +263,69 @@
     }
 
     .rightArrow {
-        top: 3702px;
-        left: 1575px;
+        position: absolute;
+        top: 3701px;
+        left: 1630px;
         width: 18px;
         height: 26px;
-        transform: matrix(0, -1, 1, 0, 0, 0);
+        transform: scaleX(-1);
     }
 
     .leftArrow {
-        top: 3689px;
-        left: 305px;
-        width: 19px;
-        height: 27px;
+        position: absolute;
+        top: 3701px;
+        left: 240px;
+        width: 18px;
+        height: 26px;
+    }
+
+    .bottomTextScreen1 {
+        position: absolute;
+        font-family: 'AmazonEmberLight', sans-serif;
+        font-size: 20px;
+        top: 3925px;
+        left: 581px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .bottomTextScreen2 {
+        position: absolute;
+        font-family: 'AmazonEmberLight', sans-serif;
+        font-size: 20px;
+        top: 3925px;
+        left: 740px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .bottomTextScreen3 {
+        position: absolute;
+        font-family: 'AmazonEmberLight', sans-serif;
+        font-size: 20px;
+        top: 3925px;
+        left: 890px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .bottomTextScreen4 {
+        position: absolute;
+        font-family: 'AmazonEmberLight', sans-serif;
+        font-size: 20px;
+        top: 3925px;
+        left: 1090px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .bottomTextScreen5 {
+        position: absolute;
+        font-family: 'AmazonEmberLight', sans-serif;
+        font-size: 20px;
+        top: 3925px;
+        left: 1190px;
+        color: white;
+        text-decoration: none;
     }
 }
