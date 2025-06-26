@@ -49,15 +49,19 @@
 .text1 {
     position: absolute;
     font-size: 30px;
-    top: 12.5px;
+    top: 44px;
     left: 700px;
+    text-decoration: none;
+    color: black;
 }
 
 .text2 {
     position: absolute;
     font-size: 30px;
-    top: 12.5px;
+    top: 44px;
     left: 972px;
+    text-decoration: none;
+    color: black;
 }
 
 .searchIcon {
@@ -74,6 +78,14 @@
     left: 1223.67px;
     width: 33px;
     height: 31.5px;
+}
+
+.metroLineaCard {
+    position: absolute;
+    width: 884px;
+    height: 497px;
+    top: 122px;
+    left: 127px;
 }
 
 .rightBar {
@@ -180,3 +192,96 @@
     left: 22.5px;
 }
 
+/* PAGE 2*/
+
+.metroLineaCard_2 {
+    position: absolute;
+    top: 103px;
+    left: 359px;
+    width: 576px;
+    height: 324px;
+}
+
+.text3_2 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    color: black;
+    font-size: 40px;
+    top: 400px;
+    left: 301px;
+}
+
+.text4_2 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    color: black;
+    font-size: 27px;
+    top: 477px;
+    left: 483px;
+}
+
+.text5_2 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    color: black;
+    font-size: 27px;
+    top: 544px;
+    left: 539px;
+}
+
+.miniRectangle_2 {
+    position: absolute;
+    top: 630px;
+    left: 495px;
+    width: 288px;
+    height: 58px;
+    border: 0.2px;
+    border: solid;
+    border-color: #707070;;
+    border-radius: 10px;
+    opacity: 0.5;
+    }
+
+.text1_miniRectangle_2 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    font-size: 27px;
+    color: #000000;
+    opacity: 0.5;
+    left: 104px;
+    top: -16px;
+}
+
+.text1_rightBar_2 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 149px;
+    left: 31px;
+}
+
+.text2_rightBar_2 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 40%;
+    left: 27px;
+    opacity: 0.5;
+}
+
+.text3_rightBar_2 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 27px;
+}
+
+.text4_rightBar_2 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 60%;
+    left: 27px;
+    opacity: 0.5;
+}
