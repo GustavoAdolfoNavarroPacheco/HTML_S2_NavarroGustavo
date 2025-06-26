@@ -53,6 +53,7 @@
     left: 700px;
     text-decoration: none;
     color: black;
+    text-decoration: underline;
 }
 
 .text2 {
@@ -193,6 +194,25 @@
 }
 
 /* PAGE 2*/
+
+.text1_2 {
+    position: absolute;
+    font-size: 30px;
+    top: 44px;
+    left: 700px;
+    text-decoration: none;
+    color: black;
+}
+
+.text2_2{
+    position: absolute;
+    font-size: 30px;
+    top: 44px;
+    left: 972px;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
 
 .metroLineaCard_2 {
     position: absolute;
