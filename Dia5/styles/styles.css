@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'OpenSansRegular', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1200px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+}
+
+.rectangle {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+    border: solid;
+    border-radius: 1px;
+    border-color: #707070;
+}
+
+.metroLineaLogo {
+    position: absolute;
+    width: 196px;
+    height: 44px;
+    top: 43px;
+    left: 43px;
+}
+
+.text1 {
+    position: absolute;
+    font-size: 30px;
+    top: 12.5px;
+    left: 700px;
+}
+
+.text2 {
+    position: absolute;
+    font-size: 30px;
+    top: 12.5px;
+    left: 972px;
+}
