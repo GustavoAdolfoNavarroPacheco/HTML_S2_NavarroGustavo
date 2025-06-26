@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     font-family: 'OpenSansRegular', sans-serif;
 }
@@ -28,6 +35,7 @@
     border: solid;
     border-radius: 1px;
     border-color: #707070;
+    background-color: white;
 }
 
 .metroLineaLogo {
@@ -51,3 +59,120 @@
     top: 12.5px;
     left: 972px;
 }
+
+.searchIcon {
+    position: absolute;
+    top: 51px;
+    left: 1123.7px;
+    width: 27px;
+    height: 27.01px;
+}
+
+.shoppingIcon {
+    position: absolute;
+    top: 51px;
+    left: 1223.67px;
+    width: 33px;
+    height: 31.5px;
+}
+
+.rightBar {
+    position: absolute;
+    top: 0px;
+    left: 1290px;
+    width: 110px;
+    height: 800px;
+    background-color: #212020;
+}
+
+.upArrow {
+    position: absolute;
+    top: 40px;
+    left: 42.82px;
+    width: 23.98px;
+    height: 13.71px;
+}
+
+.downArrow {
+    position: absolute;
+    top: 746px;
+    left: 42.82px;
+    width: 23.62px;
+    height: 13.5px;
+}
+
+.text1_rightBar {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 149px;
+    left: 13px;
+}
+
+.text2_rightBar {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 40%;
+    left: 41px;
+    opacity: 0.5;
+}
+
+.text3_rightBar {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 41px;
+}
+
+.text4_rightBar {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 60%;
+    left: 41px;
+    opacity: 0.5;
+}
+
+.text3 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    color: black;
+    font-size: 40px;
+    top: 633.5px;
+    left: 58px;
+}
+
+.text4 {
+    position: absolute;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    color: black;
+    font-size: 27px;
+    top: 696.5px;
+    left: 58px;
+}
+
+.bottomFrame {
+    position: absolute;
+    background-color: #D5FF43;
+    width: 160px;
+    height: 114px;
+    border-radius: 8px;
+    top: 647px;
+    right: 160px;
+}
+
+.miniMetroLineaLogo {
+    
+}
+
+.text1_bottomFrame {
+    position: absolute;
+    color: black;
+    font-family: 'OpenSansSemiBold', sans-serif;
+    font-size: 26px;
+    top: 42.5px;
+    left: 22.5px;
+}
+
