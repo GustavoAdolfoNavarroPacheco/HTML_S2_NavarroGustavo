@@ -164,7 +164,11 @@
 }
 
 .miniMetroLineaLogo {
-    
+    position: absolute;
+    top: 29px;
+    left: 15px;
+    width: 129px;
+    height: 29px;
 }
 
 .text1_bottomFrame {
