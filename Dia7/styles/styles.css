@@ -190,7 +190,7 @@ body {
 .text10 {
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 200px;
     color: white;
     font-family: 'CinzelBold', sans-serif;
     font-size: 60px;
@@ -200,7 +200,7 @@ body {
 .text11 {
     position: absolute;
     top: 420px;
-    left: 100px;
+    left: 200px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -217,9 +217,44 @@ body {
     width: 140px;
     height: 40px;
     border: none;
-    left: 100px;
+    left: 200px;
     cursor: pointer;
 }
 
-.i
+.loveCoffe {
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+    width: 530px;
+    height: 500px;
+}
 
+.container4 {
+    position: absolute;
+    top: 3440px;
+    height: 1080px;
+    width: 1920px;
+    text-align: center;
+    background-color: #0b0908;
+}
+
+.text12 {
+    position: absolute;
+    font-family: 'CinzelBold', sans-serif;
+    top: 0px;
+    left: 200px;
+    font-size: 60px;
+    color: white;
+}
+
+.frame1 {
+    background-color: none;
+    background: none;
+    border-radius: 20px;
+    border-color: #cf9850;
+    border: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
