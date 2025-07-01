@@ -6,12 +6,13 @@ body {
     position: absolute;
     height:  1080px;
     width: 1920px;
+    text-align: center;
 }
 
 .backgroundImg {
     position: absolute;
     height: auto;
-    width: 1920px;
+    width: 100%;
     display: block;
 }
 
@@ -75,3 +76,46 @@ body {
     cursor: pointer;
 }
 
+.text6 {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+    left: 620px;
+    top: 240px;
+    cursor: text;
+}
+
+.text7 {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+    left: 580px;
+    top: 900px;
+    cursor: text;
+}
+
+.buttonShopNow {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    top: 1100px;
+    background-color: #cf9850;
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    left: 900px;
+    cursor: pointer;
+}
+
+.container2 {
+    position: relative;
+    top: 1280px;
+    height: 1080px;
+    width: 1920px;
+    text-align: center;
+    background-color: #120f0e;
+}
