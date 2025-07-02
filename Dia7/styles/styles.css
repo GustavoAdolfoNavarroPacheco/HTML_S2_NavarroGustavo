@@ -32,6 +32,10 @@ body {
     background-color: none;
 }
 
+.topBar :hover{
+    border-bottom:  1px solid #cf9850;
+}
+
 .text1 {
     position: absolute;
     font-family:Arial, Helvetica, sans-serif;
