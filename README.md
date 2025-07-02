@@ -70,3 +70,16 @@ El contenido de este reflejado en una web lo encuentras acá [HERE](https://gust
 
 ### ¿Qué hay aquí? <br>
 En esta carpeta se encuentra la explicacion sobre el uso de colores en HTML.
+
+## [Dia 7](./Dia7/)
+En esta carpeta encontraras un archivo HTML, una carpeta para Estilos, otra para Fuentes y otra para Imagenes.
+
+- HTML: [index.html](./Dia7/index.html)
+- CSS: [styles.css](.Dia7/styles/styles.css)
+- IMG [img](./Dia7/img/)
+- FONTS: [fonts](./Dia7/fonts/)
+
+El contenido de este reflejado en una web lo encuentras acá [HERE](https://gustavoadolfonavarropacheco.github.io/HTML_S2_NavarroGustavo/Dia7/)
+
+### ¿Qué hay aquí? <br>
+En esta carpeta se encuentra el desarrollo de una pagina web para una Cafeteria, desarrollada con conocimientos basicos de HTML y CSS, aparte de que se trata de implementar el que la pagina sea adaptable.
