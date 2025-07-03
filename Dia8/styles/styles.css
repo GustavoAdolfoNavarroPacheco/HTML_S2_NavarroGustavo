@@ -1,0 +1,83 @@
+@font-face {
+    font-family: headoh_font;
+    src: url(../fonts/Headoh.TTF);
+}
+
+*{
+    color: #000000;
+    font-family: headoh_font;
+    margin: 0%;
+}
+
+body{
+    background-color: #0e111f;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container1 > div {
+    background-color: #ffffff;
+    padding: 3vw;
+    text-align: left;
+    font-size: 2.5vw;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1vw;
+    background-color: #000000;
+    padding: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    text-align: center; 
+}
+
+.text1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.text1_1{
+    margin-top: 1vw;
+    font-size: 1vw;
+    line-height: 1vw;
+}
+
+div > .texto1{
+    padding-top: 7vw;
+}
+
+color_text{
+    padding: 0.2vh;
+    background-color: #df47f7;
+}
+
+.video1{
+    width: 25vw;
+    height: 15vw;
+    background-image: url(../video/1.gif);
+    background-size: cover; 
+}
+
+.video2{
+    background-image: url(../video/2.gif);
+    background-size: cover; 
+    width: 25vw;
+    height: 15vw;
+}
+
+.video3{
+    grid-column: 1;
+    grid-column-end: 3;
+    background-image: url(../video/3.gif);
+    background-size: cover; 
+    height: 25vw;
+}
+
