@@ -83,3 +83,17 @@ El contenido de este reflejado en una web lo encuentras acá [HERE](https://gust
 
 ### ¿Qué hay aquí? <br>
 En esta carpeta se encuentra el desarrollo de una pagina web para una Cafeteria, desarrollada con conocimientos basicos de HTML y CSS, aparte de que se trata de implementar el que la pagina sea adaptable.
+
+## [Dia 8](./Dia8/)
+En esta carpeta encontraras un archivo HTML, una carpeta para Estilos, otra para Fuentes, otra para Imagenes y otra para Videos.
+
+- HTML: [index.html](./Dia8/index.html)
+- CSS: [styles.css](.Dia8/styles/styles.css)
+- IMG [img](./Dia8/img/)
+- FONTS: [fonts](./Dia8/fonts/)
+- VIDEOS: [video](./Dia8/video/)
+
+El contenido de este reflejado en una web lo encuentras acá [HERE](https://gustavoadolfonavarropacheco.github.io/HTML_S2_NavarroGustavo/Dia8/)
+
+### ¿Qué hay aquí? <br>
+En esta carpeta se encuentra el desarrollo de una pagina web para aprender a usar el Grid, desarrollada con conocimientos basicos de HTML y CSS, aparte de que se trata de implementar el que la pagina sea adaptable.
