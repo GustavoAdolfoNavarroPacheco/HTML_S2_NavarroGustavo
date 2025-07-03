@@ -7,10 +7,12 @@
     color: #000000;
     font-family: headoh_font;
     margin: 0%;
+    border-radius: 40px;
 }
 
 body{
-    background-color: #0e111f;
+    margin-top: 3vh;
+    background-color: #ffffff;
     display: flex;
     text-align: center;
     flex-direction: column;
