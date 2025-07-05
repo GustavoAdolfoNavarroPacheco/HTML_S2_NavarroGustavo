@@ -1,0 +1,75 @@
+* {
+    background-color: black;
+    border-radius: 1vi;
+    margin: 0%;
+}
+
+body {
+    margin-top: 3vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+.container > div {
+    margin: 0;
+    padding: 0;
+}
+
+.image1 {
+    background-image: url(../img/8.jpg);
+    background-size: cover; 
+    width: 15vw;
+    height: 15vw;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+}
+
+.image2 {
+    background-image: url(../img/3.jpg);
+    background-size: cover; 
+    width: 15vw;
+    height: 15vw;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+.image3 {
+    background-image: url(../img/1.jpg);
+    background-size: cover; 
+    width: 30vw;
+    height: 15vw;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+}
+
+.image4 {
+    background-image: url(../img/6.jpg);
+    background-size: cover; 
+    width: 15vw;
+    height: 23vw;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
+
+.image5 {
+    
+}
