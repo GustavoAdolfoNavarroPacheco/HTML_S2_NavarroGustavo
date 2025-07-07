@@ -96,3 +96,26 @@ El contenido de este reflejado en una web lo encuentras acá [HERE](https://gust
 
 ### ¿Qué hay aquí? <br>
 En esta carpeta se encuentra el desarrollo de una pagina web para aprender a usar el Grid, desarrollada con conocimientos basicos de HTML y CSS, aparte de que se trata de implementar el que la pagina sea adaptable.
+
+## [Dia 9](./Dia9/)
+En esta carpeta encontraras un archivo HTML, una carpeta para Estilos, y otra para Imagenes.
+
+- HTML: [index.html](./Dia9/index.html)
+- CSS: [styles.css](.Dia9/styles/styles.css)
+- IMG [img](./Dia9/img/)
+
+El contenido de este reflejado en una web lo encuentras acá [HERE](https://gustavoadolfonavarropacheco.github.io/HTML_S2_NavarroGustavo/Dia9/)
+
+### ¿Qué hay aquí? <br>
+En esta carpeta se encuentra el desarrollo de una pagina web para aprender a usar el Grid, desarrollada con conocimientos basicos de HTML y CSS, aparte de que se trata de implementar el que la pagina sea adaptable.
+
+## [Dia 13](./Dia13/)
+En esta carpeta encontraras un archivo HTML, una carpeta para Estilos, y otra para Imagenes.
+
+- HTML: [index.html](./Dia13/index.html)
+- CSS: [styles.css](.Dia13/styles/styles.css)
+- IMG [img](./Dia13/img/)
+
+El contenido de este reflejado en una web lo encuentras acá [HERE](https://gustavoadolfonavarropacheco.github.io/HTML_S2_NavarroGustavo/Dia13/)
+
+### ¿Qué hay aquí? <br>
