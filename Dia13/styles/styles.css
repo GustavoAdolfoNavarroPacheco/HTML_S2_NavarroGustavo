@@ -8,23 +8,34 @@ body {
     margin: 0;   
 }
 
-.animatedBackground {
-    background-image: url(../img/background.png);
+.animatedSky {
+    background-image: url(../img/sky.png);
     background-size: cover;
-    width: 1100px;
+    width: 1500px;
     height: 284px;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: backgroundAnimation linear 4s infinite;
+    animation: backgroundAnimation linear 6s infinite;
+}
+
+.animatedBackground {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    width: 1500px;
+    height: 284px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: backgroundAnimation linear 6s infinite;
 }
 
 .animatedGuy {
     background-image: url(../img/1.png);
-    height: 172px;
-    width: 102px;
+    height: 250px;
+    width: 147.6px;
     background-size: cover;
-    animation: guyAnimation .9s infinite;
+    animation: guyAnimation .6s infinite;
 }
 
 @keyframes backgroundAnimation {
@@ -39,38 +50,38 @@ body {
 @keyframes guyAnimation {
     0% {
         background-image: url(../img/1.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
     20% {
         background-image: url(../img/2.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
     40% {
         background-image: url(../img/3.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
     60% {
         background-image: url(../img/4.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
     80% {
         background-image: url(../img/5.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
     100% {
         background-image: url(../img/6.png);
-        height: 172px;
-        width: 102px;
+        height: 250px;
+        width: 147.6px;
         background-size: cover;
     }
 }
